@@ -1,0 +1,12 @@
+CREATE TABLE admins (
+    adminId INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE gallery_images (
+    imageId INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(100) NOT NULL,
+    imagePath VARCHAR(255) NOT NULL
+);
